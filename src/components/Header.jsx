@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { logo } from "../assets";
 
-const activeClassName = "text-rose-600";
+const activeClassName = "relative before:content-['*'] before:-top-4 before:left-1/2 before:-ml-1 before:absolute before:text-amber-400";
 
 function Header() {
   return (
@@ -23,10 +23,10 @@ function Header() {
               <NavLink to='/' className={({isActive}) => isActive ? activeClassName : undefined}>Home</NavLink>
             </li>
             <li>
-              <NavLink to='/about'>About</NavLink>
+              <NavLink to='/about' className={({isActive}) => isActive ? activeClassName : undefined}>About</NavLink>
             </li>
             <li>
-              <NavLink to='/contact'>Contact</NavLink>
+              <NavLink to='/contact' className={({isActive}) => isActive ? activeClassName : undefined}>Contact</NavLink>
             </li>
           </ul>
        </nav>
