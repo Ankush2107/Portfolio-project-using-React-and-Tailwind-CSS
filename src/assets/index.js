@@ -9,6 +9,13 @@ import Portfolio2 from './portfolio-2.jpg';
 import Portfolio3 from './portfolio-3.jpg';
 import Portfolio4 from './portfolio-4.jpg';
 
+import Services from './services.jpg';
+
+import Youtube from './icons/youtube.svg';
+import Twitter from './icons/twitter.svg';
+import Github from './icons/github.svg';
+import Discourd from './icons/discourd.svg';
+
 
 export { 
     logo,
@@ -19,5 +26,10 @@ export {
     Portfolio1,
     Portfolio2,
     Portfolio3,
-    Portfolio4
+    Portfolio4,
+    Services,
+    Youtube,
+    Twitter,
+    Github,
+    Discourd
 };
