@@ -42,7 +42,7 @@ function Home() {
        </section>
 
        <Scroller
-        text={"✨ Let's get to work! 💭 Have a project in mind? ✨ Let's get to work! 💭 Have a project in mind? ✨ Let's get to work! 💭 Have a project in mind?"}
+        text={" ✨ Let's get to work! 💭 Have a project in mind? ✨ Let's get to work! 💭 Have a project in mind? ✨ Let's get to work! 💭 Have a project in mind? "}
         link={"/contact"}
        />
 
