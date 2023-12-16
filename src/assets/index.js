@@ -16,6 +16,10 @@ import Twitter from './icons/twitter.svg';
 import Github from './icons/github.svg';
 import Discourd from './icons/discourd.svg';
 
+import HarleyCover from './harley-davidson.jpg';
+import HarleyWebsite from './harley-website.jpg';
+
+
 
 export { 
     logo,
@@ -31,5 +35,7 @@ export {
     Youtube,
     Twitter,
     Github,
-    Discourd
+    Discourd,
+    HarleyCover,
+    HarleyWebsite
 };

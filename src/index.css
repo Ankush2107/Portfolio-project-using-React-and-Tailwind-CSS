@@ -9,7 +9,3 @@ html {
 body {
     background-color: #FAF4F0;
 }
-
-.custom_heading {
-    @apply text-4xl lg:text-5xl xl:text-7xl font-bold mb-4
-}
