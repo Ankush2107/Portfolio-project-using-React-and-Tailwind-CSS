@@ -4,7 +4,7 @@ const portfolioData = [
     {
         title: "Ankush's Brand",
         thumbnail: Portfolio1,
-        alt: "A photo showcasing branding work that I did for Ankush",
+        alt: "A photo showcasing branding work that I did for karan",
         category: "Branding",
         link: "#"  
     },
